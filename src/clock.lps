@@ -10,7 +10,7 @@
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <TopLine Value="73"/>
-        <CursorPos X="35" Y="93"/>
+        <CursorPos X="20" Y="90"/>
         <UsageCount Value="136"/>
         <Loaded Value="True"/>
       </Unit>
@@ -18,263 +18,31 @@
         <Filename Value="display.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Display"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="21" Y="31"/>
         <UsageCount Value="35"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="includes.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Includes"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="76" Y="17"/>
         <UsageCount Value="35"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="delay.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Delay"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="10" Y="4"/>
         <UsageCount Value="33"/>
-        <Loaded Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\rtl\embedded\avr\atmega32a.pp"/>
-        <UnitName Value="ATmega32A"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="3" Y="78"/>
-        <UsageCount Value="54"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\rtl\x86_64\x86_64.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="80"/>
-        <CursorPos X="34" Y="86"/>
-        <UsageCount Value="1"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\rtl\x86_64\cpu.pp"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="64"/>
-        <CursorPos X="97" Y="13"/>
-        <UsageCount Value="1"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\rtl\embedded\avr\atmega8.pp"/>
-        <UnitName Value="ATmega8"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="261"/>
-        <CursorPos X="29" Y="281"/>
-        <UsageCount Value="63"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\config_lazarus\userschemes\Monokai.xml"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="1"/>
-        <DefaultSyntaxHighlighter Value="XML"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\lazarus\lazarus.pp.patch"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="2"/>
-        <DefaultSyntaxHighlighter Value="None"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\lazarus\components\lazutils\masks.pas"/>
-        <UnitName Value="Masks"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="262"/>
-        <CursorPos Y="279"/>
-        <UsageCount Value="2"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\compiler\xtensa\aasmcpu.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="437"/>
-        <CursorPos X="31" Y="461"/>
-        <UsageCount Value="7"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\compiler\xtensa\xtensaop.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="63"/>
-        <CursorPos Y="87"/>
-        <UsageCount Value="7"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\compiler\aasmtai.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="2740"/>
-        <CursorPos X="10" Y="3441"/>
-        <UsageCount Value="7"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\compiler\avr\aasmcpu.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="156"/>
-        <CursorPos X="12" Y="174"/>
-        <UsageCount Value="7"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\compiler\avr\ravrcon.inc"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="10" Y="13"/>
-        <UsageCount Value="7"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\compiler\fpcdefs.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="246"/>
-        <CursorPos X="18" Y="254"/>
-        <UsageCount Value="7"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\compiler\avr\cpubase.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="458"/>
-        <CursorPos X="87" Y="458"/>
-        <UsageCount Value="7"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\compiler\avr\ravrnor.inc"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="7"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\compiler\avr\navradd.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="292"/>
-        <CursorPos X="84" Y="292"/>
-        <UsageCount Value="7"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\rtl\avr\intrinsics.pp"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="40" Y="22"/>
-        <UsageCount Value="9"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\rtl\avr\cpuinnr.inc"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="23" Y="16"/>
-        <UsageCount Value="9"/>
-      </Unit>
-      <Unit>
-        <Filename Value="D:\Softwares\Lazarus\fpcsrc\rtl\inc\innr.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="128"/>
-        <CursorPos X="4" Y="156"/>
-        <UsageCount Value="9"/>
-      </Unit>
-      <Unit>
-        <Filename Value="..\Test_AVR_ATMega8 - Copy (2)\test_avr_atmega8 - Copy.lpr"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="9"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="11" Column="19"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="13" Column="11"/>
-      </Position>
-      <Position>
-        <Filename Value="delay.pas"/>
-        <Caret Line="6"/>
-      </Position>
-      <Position>
-        <Filename Value="delay.pas"/>
-        <Caret Line="7" Column="13"/>
-      </Position>
-      <Position>
-        <Filename Value="delay.pas"/>
-        <Caret Line="6"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="13" Column="30"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="18" Column="12"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="39" Column="28" TopLine="13"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="42" Column="22" TopLine="16"/>
-      </Position>
-      <Position>
-        <Filename Value="delay.pas"/>
-        <Caret Line="6"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="12"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="5"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="14" Column="31"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="10" Column="21"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="5"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="12" Column="14"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="40" Column="18" TopLine="16"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="12"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="5" Column="24"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="13" Column="30"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="15" Column="29"/>
-      </Position>
+    <JumpHistory HistoryIndex="3">
       <Position>
         <Filename Value="clock.lpr"/>
         <Caret Line="5"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="12" Column="9"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="17" Column="27"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="10" Column="12" TopLine="3"/>
       </Position>
       <Position>
         <Filename Value="clock.lpr"/>
@@ -287,14 +55,6 @@
       <Position>
         <Filename Value="clock.lpr"/>
         <Caret Line="88" Column="15" TopLine="74"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="5" Column="15"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="39" Column="13" TopLine="19"/>
       </Position>
     </JumpHistory>
     <RunParams>
