@@ -1,16 +1,21 @@
 program clock;
 
-uses includes,Display, Delay, intrinsics;
+uses
+  includes,
+  Display,
+  Delay,
+  intrinsics;
 
-{$define BCD}
+{$define Binary}
 
+// External Interrupt by 32khz Crystal
 procedure TIMER2_COMP_ISR; Alias: 'TIMER2_COMP_ISR'; Interrupt; Public;
 begin
-  sec += 1;
+  inc(sec);
   if (sec = 60) then
   begin
     sec := 0;
-    min += 1;
+    inc(min);
   end;
 end;
 
@@ -25,7 +30,7 @@ begin
     if (min = 60) then
     begin
       min  := 0;
-      hour += 1;
+      inc(hour);
       if (hour = 24) then
         hour  := 0;
     end;
@@ -49,33 +54,37 @@ begin
     else
     if _PINA[2] = LOW then // Minute + 1
     begin
-      min += 1;
+      inc(min);
       if min = 60 then
          min := 0;
+
        delay_ms(100);
     end
     else
     if _PINA[4] = LOW then // Minute - 1
     begin
-      min -= 1;
+      dec(min);
       if min = -1 then
          min := 59;
+
        delay_ms(100);
     end
     else
     if _PINA[5] = LOW then // Hour + 1
     begin
-      hour += 1;
+      inc(hour);
       if hour = 24 then
          hour := 0;
+
        delay_ms(100);
     end
     else
     if _PINA[7] = LOW then // Hour - 1
     begin
-      hour -= 1;
+      dec(hour);
       if hour = -1 then
          hour := 23;
+
        delay_ms(100);
     end;
 
@@ -84,7 +93,6 @@ begin
     // Display Time
     if Show then
       begin
-
 
         {$ifdef BCD}
         DisplayBCD;
