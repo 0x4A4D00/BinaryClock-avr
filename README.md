@@ -8,3 +8,8 @@
 - BCD
 - Binary 
 - GrayCode
+
+
+## ToDo
+- [ ] BCS
+- [ ] Fixing Binary Time
