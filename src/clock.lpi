@@ -85,7 +85,8 @@
             <CustomOptions Value="-Wpatmega32a
 -dF_CPU:=1000000
 -dLOW:=false
--dHIGH:=true"/>
+-dHIGH:=true
+-dBCS"/>
           </Other>
         </CompilerOptions>
       </Item>

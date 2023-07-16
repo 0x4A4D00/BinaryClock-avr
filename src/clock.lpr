@@ -6,9 +6,7 @@ uses
   Delay,
   intrinsics;
 
-{$define Binary}
-
-// External Interrupt by 32khz Crystal
+// External Interrupt by 32Khz Crystal
 procedure TIMER2_COMP_ISR; Alias: 'TIMER2_COMP_ISR'; Interrupt; Public;
 begin
   inc(sec);
@@ -83,31 +81,32 @@ begin
     begin
       dec(hour);
       if hour = -1 then
-         hour := 23;
+        hour := 23;
 
-       delay_ms(100);
+      delay_ms(100);
     end;
 
     PortD := $FF;
 
     // Display Time
     if Show then
-      begin
-
-        {$ifdef BCD}
-        DisplayBCD;
-        {$endif}
-
-        {$ifdef Binary}
+    begin
+    {$IFDEF BCD}
+    DisplayBCD;
+    {$ELSE}
+      {$IFDEF BCS}
+      DisplayBCS;
+      {$ELSE}
+        {$IFDEF Binary}
         DisplayBinary;
-        {$endif}
-
-        {$ifdef GrayCode}
-        DisplayGrayCode;
-        {$endif}
-
-      end;
-
+        {$ELSE}
+           {$IFDEF GrayCode}
+           DisplayGrayCode;
+           {$ENDIF GrayCode}
+        {$ENDIF Binary}
+      {$ENDIF BCS}
+    {$ENDIF BCD}
+    end;
   end;
 end;
 

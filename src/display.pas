@@ -2,9 +2,11 @@ unit Display;
 
 
 interface
-  procedure DisplayBCD;
-  procedure DisplayBinary;
-  procedure DisplayGrayCode;
+
+procedure DisplayBCD;
+procedure DisplayBCS;
+procedure DisplayBinary;
+procedure DisplayGrayCode;
 
 implementation
 
@@ -34,7 +36,6 @@ end;
 { For Display in BCD Format. }
 procedure DisplayBCD;
 begin
-
   Display((sec Mod 10), 6);
 
   Display((sec Div 10), 5);
@@ -50,12 +51,23 @@ begin
   delay_ms(1);
 end;
 
+{ For Display in BCS Format. }
+procedure DisplayBCS;
+begin
+  Display(sec, 6);
+
+  Display(min, 4);
+
+  Display(hour, 2);
+
+  delay_ms(1);
+end;
 
 
-{ For Display in Binary Format. }
+
+{ For Display in Binary Time Format. Not Working}
 procedure DisplayBinary;
 begin
-
   Display((sec), 4);
 
   Display((min), 3);
@@ -68,7 +80,6 @@ end;
 { For Display in GrayCode Format. }
 procedure DisplayGrayCode;
 begin
-
   Display(grayCodes[sec Mod 10], 6);
 
   Display(grayCodes[sec Div 10], 5);

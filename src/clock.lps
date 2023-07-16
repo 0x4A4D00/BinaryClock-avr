@@ -9,37 +9,54 @@
         <Filename Value="clock.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="73"/>
-        <CursorPos X="20" Y="90"/>
-        <UsageCount Value="136"/>
+        <TopLine Value="84"/>
+        <CursorPos X="30" Y="9"/>
+        <UsageCount Value="147"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="display.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Display"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="21" Y="31"/>
-        <UsageCount Value="35"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="53"/>
+        <CursorPos X="49" Y="68"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="includes.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Includes"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="76" Y="17"/>
-        <UsageCount Value="35"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="10" Y="9"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="delay.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Delay"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="2" Y="6"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\Softwares\Lazarus\fpcsrc\rtl\avr\intrinsics.pp"/>
         <EditorIndex Value="-1"/>
-        <CursorPos X="10" Y="4"/>
-        <UsageCount Value="33"/>
+        <TopLine Value="7"/>
+        <CursorPos X="33" Y="29"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\Softwares\Lazarus\fpcsrc\rtl\avr\cpuinnr.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="16"/>
+        <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="3">
+    <JumpHistory HistoryIndex="13">
       <Position>
         <Filename Value="clock.lpr"/>
         <Caret Line="5"/>
@@ -55,6 +72,46 @@
       <Position>
         <Filename Value="clock.lpr"/>
         <Caret Line="88" Column="15" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="74" Column="11" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="90" Column="16" TopLine="82"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="7" Column="9" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="12" Column="11" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="115" Column="29"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="108" Column="81" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="102" Column="71" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="31" Column="76" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="106" Column="21" TopLine="101"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="105" Column="13" TopLine="94"/>
       </Position>
     </JumpHistory>
     <RunParams>
