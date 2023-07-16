@@ -6,10 +6,11 @@
 
 ## Modes
 - BCD
+- BCS
 - GrayCode
 
 
 ## ToDo
-- [ ] BCS
+- [x] BCS
 - [ ] Binary Time
 - [ ] Fixing GrayCode
