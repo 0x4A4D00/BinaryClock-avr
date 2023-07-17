@@ -78,6 +78,7 @@
           <Linking>
             <Debugging>
               <GenerateDebugInfo Value="False"/>
+              <DebugInfoType Value="dsDwarf3"/>
             </Debugging>
             <LinkSmart Value="True"/>
           </Linking>
@@ -86,7 +87,7 @@
 -dF_CPU:=1000000
 -dLOW:=false
 -dHIGH:=true
--dBCS"/>
+-dBinary"/>
           </Other>
         </CompilerOptions>
       </Item>
@@ -117,6 +118,11 @@
         <Filename Value="delay.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Delay"/>
+      </Unit>
+      <Unit>
+        <Filename Value="sfp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SFP"/>
       </Unit>
     </Units>
   </ProjectOptions>

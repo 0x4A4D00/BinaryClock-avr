@@ -12,11 +12,13 @@ implementation
 
 uses
   Includes,
-  delay;
+  delay,
+  SFP;
 
 procedure CleanDisplay; inline;
 begin
   PORTD := $FF;
+  PORTB := $00;
 end;
 
 procedure Display(time, output: integer);
@@ -63,16 +65,28 @@ begin
   delay_ms(1);
 end;
 
-
-
-{ For Display in Binary Time Format. Not Working}
+{ For Display in Binary Time Format. }
 procedure DisplayBinary;
+var
+  a   : FixedPoint;
+  i,j : integer;
 begin
-  Display((sec), 4);
+  a := DayTime;
+  for i := 4 to 7 do
+  begin
+    for j := 3 to 6 do
+    begin
+      _PORTD[i] := false;
 
-  Display((min), 3);
-
-  Display((hour), 2);
+      if a >= points[i,j] then
+      begin
+        a := a - points[i,j];
+        _PORTB[9-j] := true;
+      end;
+      _PORTD[i] := true;
+    end;
+    CleanDisplay;
+  end;
 
   delay_ms(1);
 end;

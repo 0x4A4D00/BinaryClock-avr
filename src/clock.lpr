@@ -4,12 +4,21 @@ uses
   includes,
   Display,
   Delay,
-  intrinsics;
+  intrinsics, SFP;
 
 // External Interrupt by 32Khz Crystal
 procedure TIMER2_COMP_ISR; Alias: 'TIMER2_COMP_ISR'; Interrupt; Public;
 begin
-  inc(sec);
+  inc(tik);
+  inc(DayTime.decimal, 3);
+  if (tik = 3) then
+  begin
+    inc(sec);
+    tik := 0;
+    inc(DayTime.int);
+    DayTime.decimal := 0;
+    if (DayTime.int >= 86400) then DayTime.int := 0;
+  end;
   if (sec = 60) then
   begin
     sec := 0;
@@ -53,6 +62,7 @@ begin
     if _PINA[2] = LOW then // Minute + 1
     begin
       inc(min);
+      inc(DayTime.int, 60);
       if min = 60 then
          min := 0;
 
@@ -62,6 +72,7 @@ begin
     if _PINA[4] = LOW then // Minute - 1
     begin
       dec(min);
+      dec(DayTime.int, 60);
       if min = -1 then
          min := 59;
 
@@ -71,6 +82,7 @@ begin
     if _PINA[5] = LOW then // Hour + 1
     begin
       inc(hour);
+      inc(DayTime.int, 3600);
       if hour = 24 then
          hour := 0;
 
@@ -80,6 +92,7 @@ begin
     if _PINA[7] = LOW then // Hour - 1
     begin
       dec(hour);
+      dec(DayTime.int, 3600);
       if hour = -1 then
         hour := 23;
 
