@@ -7,10 +7,12 @@
 ## Modes
 - BCD
 - BCS
+- Binary Time
 - GrayCode
 
 
 ## ToDo
 - [x] BCS
-- [ ] Binary Time
+- [x] Binary Time
 - [ ] Fixing GrayCode
+- [ ] Fixing Timer Tick and TIMSK
