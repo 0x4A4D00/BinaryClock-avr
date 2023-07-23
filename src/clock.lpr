@@ -9,15 +9,15 @@ uses
 // External Interrupt by 32Khz Crystal
 procedure TIMER2_COMP_ISR; Alias: 'TIMER2_COMP_ISR'; Interrupt; Public;
 begin
-  inc(tik);
+  inc(TickCount);
   inc(DayTime.decimal, 3);
-  if (tik = 3) then
+  if (TickCount = 3) then
   begin
     inc(sec);
-    tik := 0;
+    TickCount := 0;
     inc(DayTime.int);
     DayTime.decimal := 0;
-    if (DayTime.int >= 86400) then DayTime.int := 0;
+    if (DayTime.int >= 86400) then DayTime.int := 0; // Range is low
   end;
   if (sec = 60) then
   begin

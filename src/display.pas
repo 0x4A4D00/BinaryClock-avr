@@ -68,8 +68,8 @@ end;
 { For Display in Binary Time Format. }
 procedure DisplayBinary;
 var
-  a   : FixedPoint;
-  i,j : integer;
+  a :TFixedPoint; //!
+  i, j :integer;
 begin
   a := DayTime;
   for i := 4 to 7 do
@@ -78,9 +78,9 @@ begin
     begin
       _PORTD[i] := false;
 
-      if a >= points[i,j] then
+      if a >= BINARY_POINTS[i,j] then
       begin
-        a := a - points[i,j];
+        a := a - BINARY_POINTS[i,j];
         _PORTB[9-j] := true;
       end;
       _PORTD[i] := true;
@@ -94,17 +94,17 @@ end;
 { For Display in GrayCode Format. }
 procedure DisplayGrayCode;
 begin
-  Display(grayCodes[sec Mod 10], 6);
+  Display(GRAY_CODES[sec Mod 10], 6);
 
-  Display(grayCodes[sec Div 10], 5);
+  Display(GRAY_CODES[sec Div 10], 5);
 
-  Display(grayCodes[min Mod 10], 4);
+  Display(GRAY_CODES[min Mod 10], 4);
 
-  Display(grayCodes[min Div 10], 3);
+  Display(GRAY_CODES[min Div 10], 3);
 
-  Display(grayCodes[hour Mod 10], 2);
+  Display(GRAY_CODES[hour Mod 10], 2);
 
-  Display(grayCodes[hour Div 10], 1);
+  Display(GRAY_CODES[hour Div 10], 1);
 
   delay_ms(1);
 end;

@@ -8,20 +8,19 @@
       <Unit>
         <Filename Value="clock.lpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="104"/>
-        <CursorPos X="21" Y="116"/>
-        <UsageCount Value="167"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="14" Y="17"/>
+        <UsageCount Value="175"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="display.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Display"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="63"/>
-        <CursorPos Y="90"/>
-        <UsageCount Value="66"/>
+        <TopLine Value="76"/>
+        <CursorPos X="21" Y="107"/>
+        <UsageCount Value="74"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -29,9 +28,9 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Includes"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="7"/>
-        <CursorPos X="19" Y="23"/>
-        <UsageCount Value="66"/>
+        <TopLine Value="13"/>
+        <CursorPos X="12" Y="37"/>
+        <UsageCount Value="74"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -40,7 +39,16 @@
         <UnitName Value="Delay"/>
         <EditorIndex Value="5"/>
         <CursorPos X="2" Y="6"/>
-        <UsageCount Value="64"/>
+        <UsageCount Value="72"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="sfp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SFP"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="33" Y="26"/>
+        <UsageCount Value="43"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -61,16 +69,7 @@
         <EditorIndex Value="4"/>
         <TopLine Value="40"/>
         <CursorPos X="8" Y="59"/>
-        <UsageCount Value="18"/>
-        <Loaded Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="sfp.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="SFP"/>
-        <EditorIndex Value="3"/>
-        <CursorPos X="6" Y="27"/>
-        <UsageCount Value="35"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -82,34 +81,6 @@
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="33" Column="20" TopLine="19"/>
-      </Position>
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="128" Column="5" TopLine="111"/>
-      </Position>
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="88" Column="15" TopLine="74"/>
-      </Position>
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="74" Column="11" TopLine="62"/>
-      </Position>
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="90" Column="16" TopLine="82"/>
-      </Position>
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="7" Column="9" TopLine="3"/>
-      </Position>
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="12" Column="11" TopLine="9"/>
-      </Position>
       <Position>
         <Filename Value="clock.lpr"/>
         <Caret Line="115" Column="29"/>
@@ -201,6 +172,34 @@
       <Position>
         <Filename Value="display.pas"/>
         <Caret Line="73" Column="15" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="includes.pas"/>
+        <Caret Line="15" Column="28" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="sfp.pas"/>
+        <Caret Line="16" Column="33"/>
+      </Position>
+      <Position>
+        <Filename Value="sfp.pas"/>
+        <Caret Line="26" Column="33"/>
+      </Position>
+      <Position>
+        <Filename Value="includes.pas"/>
+        <Caret Line="24" Column="47" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="83" Column="31" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="88" Column="18" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="107" Column="21" TopLine="76"/>
       </Position>
     </JumpHistory>
     <RunParams>
