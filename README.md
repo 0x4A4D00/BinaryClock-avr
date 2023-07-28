@@ -9,6 +9,7 @@
 - BCD
 - BCS
 - GrayCode
+- Binary
 
 ## Display
 ### In the Pictures Below, you can see the Display of 1:20:59 in Different Modes.
@@ -25,9 +26,14 @@ Gray Code:
 </br>
 ![1-20-59-graycode](https://github.com/0x4A4D00/BinaryClock-avr/assets/40355105/c495b219-88e7-43ea-8856-1f6a870d2bff)</br>
 
+Binary:
+</br>
+![1-20-59-binary](https://github.com/0x4A4D00/BinaryClock-avr/assets/40355105/0ebeb595-323b-43b9-bb64-eafbb6f7bd33)</br>
+
+
 </br>
 
 ## ToDo
 - [x] BCS
-- [ ] Binary Time
+- [x] Binary Time
 - [ ] Fixing Timer Tick and TIMSK
