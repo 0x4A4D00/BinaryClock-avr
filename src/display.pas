@@ -18,7 +18,6 @@ uses
 procedure CleanDisplay; inline;
 begin
   PORTD := $FF;
-  PORTB := $00;
 end;
 
 procedure Display(time, output: integer);
@@ -68,26 +67,29 @@ end;
 { For Display in Binary Time Format. }
 procedure DisplayBinary;
 var
-  a :TFixedPoint; //!
-  i, j :integer;
+  now : TFixedPoint;
+  cNumber ,
+  rNumber : integer;
 begin
-  a := DayTime;
-  for i := 4 to 7 do
+  now := DayTime;
+  for rNumber := Low(BINARY_POINTS) to High(BINARY_POINTS) do
   begin
-    for j := 3 to 6 do
+    for cNumber := Low(BINARY_POINTS[i]) to High(BINARY_POINTS[i]) do
     begin
-      _PORTD[i] := false;
-
-      if a >= BINARY_POINTS[i,j] then
+      if now >= BINARY_POINTS[rNumber,cNumber] then
       begin
-        a := a - BINARY_POINTS[i,j];
-        _PORTB[9-j] := true;
-      end;
-      _PORTD[i] := true;
+        _PORTD[rNumber] := false;
+        now := now - BINARY_POINTS[rNumber,cNumber];
+        _PORTB[cNumber] := true;
+      end
+      else
+        _PORTB[cNumber] := false;
     end;
-    CleanDisplay;
+    delay_ms(5);
+    _PORTD[rNumber] := true;
   end;
 
+  CleanDisplay;
   delay_ms(1);
 end;
 

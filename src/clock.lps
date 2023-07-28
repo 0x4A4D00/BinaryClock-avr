@@ -8,9 +8,9 @@
       <Unit>
         <Filename Value="clock.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="14" Y="17"/>
-        <UsageCount Value="175"/>
+        <TopLine Value="51"/>
+        <CursorPos X="24" Y="93"/>
+        <UsageCount Value="208"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -18,28 +18,30 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Display"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="76"/>
-        <CursorPos X="21" Y="107"/>
-        <UsageCount Value="74"/>
+        <TopLine Value="72"/>
+        <CursorPos X="9" Y="90"/>
+        <UsageCount Value="108"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="includes.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Includes"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="13"/>
-        <CursorPos X="12" Y="37"/>
-        <UsageCount Value="74"/>
+        <TopLine Value="5"/>
+        <CursorPos X="37" Y="30"/>
+        <UsageCount Value="108"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="delay.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Delay"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="6"/>
         <CursorPos X="2" Y="6"/>
-        <UsageCount Value="72"/>
+        <UsageCount Value="106"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -47,8 +49,9 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="SFP"/>
         <EditorIndex Value="3"/>
-        <CursorPos X="33" Y="26"/>
-        <UsageCount Value="43"/>
+        <TopLine Value="10"/>
+        <CursorPos X="50" Y="32"/>
+        <UsageCount Value="77"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -56,103 +59,30 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="7"/>
         <CursorPos X="33" Y="29"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="D:\Softwares\Lazarus\fpcsrc\rtl\avr\cpuinnr.inc"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="3" Y="16"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="D:\Softwares\Lazarus\fpcsrc\rtl\objpas\objpas.pp"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="40"/>
         <CursorPos X="8" Y="59"/>
-        <UsageCount Value="22"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="20"/>
       </Unit>
       <Unit>
         <Filename Value="D:\Softwares\Lazarus\fpcsrc\rtl\inc\systemh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="515"/>
         <CursorPos X="3" Y="531"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="6"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="115" Column="29"/>
-      </Position>
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="108" Column="81" TopLine="88"/>
-      </Position>
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="102" Column="71" TopLine="84"/>
-      </Position>
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="31" Column="76" TopLine="8"/>
-      </Position>
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="106" Column="21" TopLine="101"/>
-      </Position>
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="105" Column="13" TopLine="94"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="25" Column="11" TopLine="9"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="32" Column="8" TopLine="16"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="30" Column="13" TopLine="16"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="32" Column="10" TopLine="16"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="18" Column="18" TopLine="16"/>
-      </Position>
-      <Position>
-        <Filename Value="clock.lpr"/>
-        <Caret Line="7" Column="13"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="32" Column="18" TopLine="16"/>
-      </Position>
-      <Position>
-        <Filename Value="sfp.pas"/>
-        <Caret Line="3"/>
-      </Position>
-      <Position>
-        <Filename Value="sfp.pas"/>
-        <Caret Line="8" Column="15"/>
-      </Position>
-      <Position>
-        <Filename Value="display.pas"/>
-        <Caret Line="87" Column="16" TopLine="68"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="17" Column="51"/>
-      </Position>
-      <Position>
-        <Filename Value="includes.pas"/>
-        <Caret Line="6" Column="7"/>
-      </Position>
       <Position>
         <Filename Value="display.pas"/>
         <Caret Line="16" Column="6"/>
@@ -200,6 +130,78 @@
       <Position>
         <Filename Value="display.pas"/>
         <Caret Line="107" Column="21" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="17" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="20" Column="36" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="114" Column="14" TopLine="101"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="8" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="20" Column="19" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="91" Column="13" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="92" Column="13" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="90" Column="3" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="78" Column="67" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="75" Column="38" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="73" Column="22" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="75" Column="38" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="88" Column="25" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="includes.pas"/>
+        <Caret Line="31" Column="116" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="87" Column="28" TopLine="65"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="75" Column="33" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="clock.lpr"/>
+        <Caret Line="15" Column="59"/>
+      </Position>
+      <Position>
+        <Filename Value="display.pas"/>
+        <Caret Line="77" Column="38" TopLine="66"/>
       </Position>
     </JumpHistory>
     <RunParams>

@@ -4,7 +4,8 @@ uses
   includes,
   Display,
   Delay,
-  intrinsics, SFP;
+  intrinsics,
+  SFP;
 
 // External Interrupt by 32Khz Crystal
 procedure TIMER2_COMP_ISR; Alias: 'TIMER2_COMP_ISR'; Interrupt; Public;
@@ -43,7 +44,7 @@ begin
     end;
 
     // Check Input Buttons
-    if _PINA[0] = LOW then  // Turn Display OFF
+    if _PINA[0] = false then  // Turn Display OFF
     begin
       if show then
       begin
@@ -59,7 +60,7 @@ begin
       delay_ms(500);
     end
     else
-    if _PINA[2] = LOW then // Minute + 1
+    if _PINA[2] = false then // Minute + 1
     begin
       inc(min);
       inc(DayTime.int, 60);
@@ -69,7 +70,7 @@ begin
        delay_ms(100);
     end
     else
-    if _PINA[4] = LOW then // Minute - 1
+    if _PINA[4] = false then // Minute - 1
     begin
       dec(min);
       dec(DayTime.int, 60);
@@ -79,7 +80,7 @@ begin
        delay_ms(100);
     end
     else
-    if _PINA[5] = LOW then // Hour + 1
+    if _PINA[5] = false then // Hour + 1
     begin
       inc(hour);
       inc(DayTime.int, 3600);
@@ -89,7 +90,7 @@ begin
        delay_ms(100);
     end
     else
-    if _PINA[7] = LOW then // Hour - 1
+    if _PINA[7] = false then // Hour - 1
     begin
       dec(hour);
       dec(DayTime.int, 3600);
