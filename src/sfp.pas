@@ -26,7 +26,13 @@ end;
 operator - (a,b: TFixedPoint): TFixedPoint;
 begin
   result.int := a.int - b.int;
-  result.decimal := a.decimal - b.decimal;
+  if b.decimal > a.decimal then
+  begin
+    dec(result.int);
+    result.decimal := a.decimal - b.decimal + 100;
+  end
+  else
+    result.decimal := a.decimal - b.decimal;
 end;
 
 end.
